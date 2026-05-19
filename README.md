@@ -21,7 +21,8 @@
 
 ## 🚀 What I'm Building
 - 🤖 **Developer's Driver** — Personal AI agent that delivers a daily developer briefing via email, powered by Claude AI and GitHub Actions.
-- 📚 Always learning system design, backend engineering, and AI agent frameworks
+- 🤖 **advProm** — A CLI tool that transforms raw developer thoughts into structured, optimized Claude prompts. Built with Python, Typer, and Claude Haiku.
+- 📚 Always learning system design, backend engineering, and AI agent frameworks.
 
 ---
 
@@ -45,12 +46,19 @@
   [View Project →](https://github.com/Kenzoh33/developers-driver)
   
   ---
+
+  ### advProm
+  > A CLI tool that transforms raw developer thoughts into structured, optimized Claude prompts. Built with Python, Typer, and Claude Haiku.
+  
+  [View Project →](https://github.com/Kenzoh33/advProm.git)
+  
+  ---
   
   ### 🧠 MoodLens
   > AI-powered mental wellness tracking web application for college students. Users log daily mood, sleep, stress, and energy data — the system uses large language model AI
    to analyze behavioral patterns and generate personalized weekly wellness insights, addressing mental health equity gaps in underserved student populations.
    
-  [View Project →](#) https://github.com/Kenzoh33/moodlens
+  [View Project →](https://github.com/Kenzoh33/moodlens) 
   
   ---
 
@@ -58,8 +66,7 @@
   > Interactive crime analysis dashboard built with R Shiny and deployed via Docker. Scrapes live Baltimore City homicide data, visualizes multi-year trends, and enables
   real-time filtering — built for law enforcement decision-making.
 
-  [View Project →](#) https://github.com/Kenzoh33/Baltimore-Homicide-Dashboard
-
+  [View Project →](https://github.com/Kenzoh33/Baltimore-Homicide-Dashboard) 
 
 ## 📊 GitHub Stats
 
