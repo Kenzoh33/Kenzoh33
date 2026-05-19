@@ -70,12 +70,10 @@
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Kenzoh33&show_icons=true&theme=tokyonight&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kenzoh33&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Kenzoh33&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" width="49%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kenzoh33&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=1800" width="49%"/>
 </p>
 
----
-
 <p align="center">
-  <i>Always building. Always learning. Let's connect!</i>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Kenzoh33&theme=tokyonight&hide_border=true"/>
 </p>
