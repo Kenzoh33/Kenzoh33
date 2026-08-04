@@ -1,11 +1,10 @@
 <h1 align="center">Hey, I'm Rochak 👋</h1>
-
 <p align="center">
   <b>CS Junior @ Morgan State University</b> • Graduating May 2028
   <br/>
-  Building AI Agents • Backend Systems • System Design
+  Backend Systems • AI Agents • System Design
   <br/>
-  Open to Internships & Research Opportunities 2026
+  Open to Software Engineering & AI/ML Internships — Summer 2027
 </p>
 
 <p align="center">
@@ -20,15 +19,18 @@
 ---
 
 ## 🚀 What I'm Building
-- 🤖 **Developer's Driver** — Personal AI agent that delivers a daily developer briefing via email, powered by Claude AI and GitHub Actions.
-- 🤖 **advProm** — A CLI tool that transforms raw developer thoughts into structured, optimized Claude prompts. Built with Python, Typer, and Claude Haiku.
-- 📚 Always learning system design, backend engineering, and AI agent frameworks.
+
+- 🧱 **redis-clone** — A Redis-compatible server built from scratch on raw TCP sockets, speaking real RESP2 so unmodified `redis-cli` and `redis-py` can talk to it. Full protocol, storage, WAL persistence, and primary/replica replication layers, benchmarked at 100k+ req/sec on reads.
+- 🗣️ **MyVoice** — An AI roleplay coach that helps K-12 students practice self-advocacy conversations, built solo end-to-end during a CEAMLS hackathon.
+- 📚 Always learning systems programming, backend engineering, and AI agent frameworks.
 
 ---
 
 ## 🛠 Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -39,46 +41,34 @@
 
 ## 📂 Featured Projects
 
-### 🚗 Developer's Driver
-> Personal AI agent that delivers 4 daily emails — one per tech track — with AI-generated developer insights, career tips, portfolio project ideas, and live GitHub trending repos. Built with Python, Groq (Llama 3.3 70B), Resend API, and automated via GitHub Actions cron. Zero infrastructure — no server, no database.
-
-[View Project →](https://github.com/Kenzoh33/developers-driver)
+### 🧱 redis-clone
+> A Redis-compatible server built from scratch on raw TCP sockets — no framework, no shortcuts. Implements real RESP2 protocol encoding, an asyncio event-driven TCP server, a TTL-aware in-memory store, write-ahead-log crash recovery, and primary/replica replication with full resync. Benchmarked with `redis-benchmark`: ~100k req/sec on reads, ~22k req/sec on writes (bottlenecked by per-write `fsync`, not the in-memory logic). Tested against a real `redis-py` client, including concurrency stress tests and end-to-end crash-recovery tests.
+[View Project →](https://github.com/Kenzoh33/redis-clone)
 
 ---
 
-### 🤖 advProm — AI Prompt Engineer for Developers
-> A CLI tool that transforms raw developer thoughts into structured, optimized Claude prompts. Built with Python, Typer, and Claude Haiku.
-
-[View Project →](https://github.com/Kenzoh33/advProm)
+### 🗣️ MyVoice
+> An AI coaching app that helps K-12 students practice self-advocacy through roleplay conversations. Built solo during a CEAMLS hackathon using Claude's API — with Structured Outputs and forced tool-choice schema enforcement for reliable, on-rails conversation handling — plus ElevenLabs for voice synthesis, a React/Vite frontend, and a Node/Express backend. Ships with real production touches: CORS allowlisting, per-IP rate limiting, 40-turn history truncation, and a MOCK fixture mode for offline demos.
+[View Project →](https://github.com/Kenzoh33/MyVoice)
 
 ---
 
 ### 🧠 MoodLens
-> AI-powered mental wellness tracking web application for college students. Users log daily mood, sleep, stress, and energy data — the system uses large language model AI to analyze behavioral patterns and generate personalized weekly wellness insights, addressing mental health equity gaps in underserved student populations.
-
+> AI-powered mental wellness tracker for college students. Users log daily mood, sleep, stress, and energy — an LLM analyzes the patterns and generates personalized weekly wellness insights, aimed at closing mental health equity gaps in underserved student populations.
 [View Project →](https://github.com/Kenzoh33/moodlens)
-
----
-
-### 🔍 Baltimore City Homicide Analysis Dashboard
-> Interactive crime analysis dashboard built with R Shiny and deployed via Docker. Scrapes live Baltimore City homicide data, visualizes multi-year trends, and enables real-time filtering — built for law enforcement decision-making.
-
-[View Project →](https://github.com/Kenzoh33/Baltimore-Homicide-Dashboard)
 
 ---
 
 ## 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kenzoh33&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kenzoh33/Kenzoh33/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Kenzoh33/Kenzoh33/output/github-contribution-grid-snake.svg" />
+    <img alt="a snake eating my GitHub contribution graph" src="https://raw.githubusercontent.com/Kenzoh33/Kenzoh33/output/github-contribution-grid-snake.svg" width="100%"/>
+  </picture>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Kenzoh33&theme=tokyonight" width="100%"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Kenzoh33&theme=tokyonight" width="32%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Kenzoh33&theme=tokyonight" width="32%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Kenzoh33&theme=tokyonight" width="32%"/>
+  <img src="https://streak-stats.demolab.com?user=Kenzoh33&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" width="60%"/>
 </p>
